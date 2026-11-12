@@ -1,4 +1,4 @@
-# ⚡ KRITI PRIYA — Ultra-Modern 3D Developer Portfolio
+# ⚡ KRITI PRIYA — Ultra-Modern 3D Developer Portfolio https://kriti-portfolio-nine.vercel.app/
 
 > An award-winning, Awwwards-tier interactive 3D web portfolio engineered with **React 18**, **Three.js**, **React Three Fiber (R3F)**, **Drei**, **Tailwind CSS**, and **Framer Motion**.
 
