@@ -113,7 +113,7 @@ AUREL – Premium Fashion E-Commerce Website (2026)
           type: 'output',
           text: `DIRECT CONTACT:
 • Email:    kritipriyas2004@gmail.com
-• Phone:    +91-8538908849
+• Phone:    +91-xxxxxxxxxx
 • LinkedIn: https://www.linkedin.com/in/kritipriya14/
 • GitHub:   https://github.com/KritiPriya14
 • LeetCode: https://leetcode.com/u/KritiPriya_coder/
@@ -135,7 +135,7 @@ AUREL – Premium Fashion E-Commerce Website (2026)
           text: `🌟 EXCELLENT CHOICE!
 Hiring protocol activated. Access granted to high-impact engineering talent.
 Direct Email: kritipriyas2004@gmail.com
-Phone:        +91-8538908849
+Phone:        +91-xxxxxxxxxx
 LinkedIn:     https://www.linkedin.com/in/kritipriya14/`
         });
         break;

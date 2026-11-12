@@ -37,7 +37,7 @@
    - JEE Mains National Qualification.
 
 7. **Direct Hiring & Communication Hub**:
-   - Instant copy-to-clipboard for Email (`kritipriyas2004@gmail.com`) and Phone (`+91-8538908849`).
+   - Instant copy-to-clipboard for Email (`kritipriyas2004@gmail.com`) and Phone (`+91-xxxxxxxxxx`).
    - Integrated message transmission with automated confetti celebration.
    - Embedded interactive PDF resume viewer & one-click download.
 

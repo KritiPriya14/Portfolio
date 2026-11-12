@@ -1,21 +1,28 @@
-import React, { useEffect } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
-import { X, Download, ExternalLink, FileText, CheckCircle2, Sparkles } from 'lucide-react';
-import { personalInfo } from '../data/portfolioData';
-import { soundFx } from '../utils/soundEffects';
+import React, { useEffect } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+import {
+  X,
+  Download,
+  ExternalLink,
+  FileText,
+  CheckCircle2,
+  Sparkles,
+} from "lucide-react";
+import { personalInfo } from "../data/portfolioData";
+import { soundFx } from "../utils/soundEffects";
 
 export default function ResumeModal({ isOpen, onClose }) {
   useEffect(() => {
     const handleKeyDown = (e) => {
-      if (e.key === 'Escape') onClose();
+      if (e.key === "Escape") onClose();
     };
     if (isOpen) {
-      window.addEventListener('keydown', handleKeyDown);
-      document.body.style.overflow = 'hidden';
+      window.addEventListener("keydown", handleKeyDown);
+      document.body.style.overflow = "hidden";
     }
     return () => {
-      window.removeEventListener('keydown', handleKeyDown);
-      document.body.style.overflow = 'unset';
+      window.removeEventListener("keydown", handleKeyDown);
+      document.body.style.overflow = "unset";
     };
   }, [isOpen, onClose]);
 
@@ -94,7 +101,8 @@ export default function ResumeModal({ isOpen, onClose }) {
             </span>
             <span className="text-slate-600">•</span>
             <span className="flex items-center gap-1 text-purple-400 whitespace-nowrap">
-              <CheckCircle2 className="w-3.5 h-3.5" /> Full Stack Intern @ Codec Technologies
+              <CheckCircle2 className="w-3.5 h-3.5" /> Full Stack Intern @ Codec
+              Technologies
             </span>
             <span className="text-slate-600">•</span>
             <span className="flex items-center gap-1 text-amber-400 whitespace-nowrap">
@@ -102,7 +110,8 @@ export default function ResumeModal({ isOpen, onClose }) {
             </span>
             <span className="text-slate-600">•</span>
             <span className="flex items-center gap-1 text-emerald-400 whitespace-nowrap">
-              <CheckCircle2 className="w-3.5 h-3.5" /> EF SET C1 Advanced English
+              <CheckCircle2 className="w-3.5 h-3.5" /> EF SET C1 Advanced
+              English
             </span>
           </div>
 
@@ -117,7 +126,9 @@ export default function ResumeModal({ isOpen, onClose }) {
 
           {/* Modal Footer */}
           <div className="p-4 border-t border-white/10 bg-[#0a0f26] flex items-center justify-between text-xs text-slate-400">
-            <span className="font-mono">Direct Contact: kritipriyas2004@gmail.com</span>
+            <span className="font-mono">
+              Direct Contact: kritipriyas2004@gmail.com
+            </span>
             <button
               onClick={() => {
                 soundFx.playClick();
@@ -133,4 +144,3 @@ export default function ResumeModal({ isOpen, onClose }) {
     </AnimatePresence>
   );
 }
-

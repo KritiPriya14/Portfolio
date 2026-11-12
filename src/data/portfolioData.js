@@ -9,7 +9,7 @@ export const personalInfo = {
   ],
   bio: "Computer Science and Engineering undergraduate at Sandip University (2023-2027) with a passion for blending algorithmic problem-solving (350+ LeetCode problems solved, JEE Mains qualified) with cutting-edge 3D interactive web experiences. Former Full Stack Development Intern at Codec Technologies.",
   email: "kritipriyas2004@gmail.com",
-  phone: "+91-8538908849",
+  phone: "+91-xxxxxxxxxx",
   location: "India",
   status: "Available for High-Impact Roles & Internships",
   resumeUrl: "/Kriti_Priya_Resume.pdf",
@@ -18,7 +18,7 @@ export const personalInfo = {
     linkedin: "https://www.linkedin.com/in/kritipriya14/",
     leetcode: "https://leetcode.com/u/KritiPriya_coder/",
     email: "mailto:kritipriyas2004@gmail.com",
-    phone: "tel:+918538908849"
+    phone: "tel:+91xxxxxxxxxx"
   },
   leetcodeUsername: "KritiPriya_coder",
   web3FormsKey: "b4cde030-f166-4a52-982a-ddb4dd265571"
